@@ -1,2 +1,6 @@
 # authenticate-sample-angular-app
-Web App sample that authenticate users with Haventec Authenticate using OpenID Connect and built in Angular
+Angular Sample Web App that authenticates users with Haventec Authenticate using OpenID Connect PCKE flow.
+
+# Tutorial
+For a step-by-step tutorial please follow:
+ * https://docs.haventec.com/docs/authenticate/v1.2/integrations/angular-iam
