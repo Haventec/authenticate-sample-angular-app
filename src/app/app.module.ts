@@ -10,6 +10,7 @@ import { RedirectComponent } from './redirect/redirect.component';
 import { OAuthModule } from 'angular-oauth2-oidc';
 import { AuthGuard } from './auth.guard';
 import { HttpClientModule } from '@angular/common/http';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     ProfileComponent,
     LogoutComponent,
     PagenotfoundComponent,
-    RedirectComponent
+    RedirectComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
